@@ -1,8 +1,8 @@
 # rosenplants.github.io
 
-* [#Introduction](Introduction)
-* [#Completed](Completed)
-* [#To-Do](To-Do)
+* [Introduction](#Introduction)
+* [Completed](#Completed)
+* [To-Do](#To-Do)
 
 ## Introduction
 
