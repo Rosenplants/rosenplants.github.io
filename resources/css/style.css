@@ -1,19 +1,20 @@
 /*Universal Styles*/
-* {
+html {
     box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0;
-    background-color: #efffd3;
+    background-color: antiquewhite;
 }
 
 /*Colors*/
 header,
 footer {
-    background-color: #556b2fd1;
+    background-color: #2c858c;
 }
 
 /*Header*/
@@ -25,6 +26,7 @@ header {
 
 header h1 {
     display: inline-block;
+    font-family: 'Alegreya Sans SC', sans-serif;
     text-decoration: underline;
     position: relative;
     width: 50%;
@@ -65,7 +67,7 @@ header h4 {
 
 .about-me img {
     margin-left: 50px;
-    border-radius: 10px;
+    border-radius: 15px;
     width: 350px;
 }
 
@@ -86,10 +88,10 @@ header h4 {
 
 button {
     display: inline-block;
-    background-color: #efffd3;
+    background-color: goldenrod;
     height: 100px;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 0px 10px;
 }
 
@@ -107,6 +109,7 @@ footer p {
     margin: 1em auto;
 }
 
-footer a {
+footer a,
+header a {
     color: white;
 }
