@@ -12,7 +12,7 @@ async function search(path) {
     }
 }
 
-search('../images')
+search('../images');
 
 image.addEventListener('click', () => {
     let newImage = imgArray[Math.floor(Math.random()*imgArray.length)]
