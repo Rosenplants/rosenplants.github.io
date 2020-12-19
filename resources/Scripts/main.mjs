@@ -1,12 +1,12 @@
-import fs from 'fs';
+const fs = require('fs');
 
 const image = document.getElementById('me');
 
 let imgArray = [];
 
-const dir = await fs.promises.opendir('../images')
+const dir = fs.promises.opendir('../images')
 
-for await (const dirent of dir) {
+for (const dirent of dir) {
     imgArray.push(dirent.name);
 }
 
