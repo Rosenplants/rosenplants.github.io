@@ -20,17 +20,18 @@ footer {
 /*Header*/
 header {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header h1 {
     display: inline-block;
     font-family: 'Alegreya Sans SC', sans-serif;
     text-decoration: underline;
-    position: relative;
     width: 50%;
-    left: 75px;
     padding: 15px 0px;
     margin: 0;
     text-align: left;
@@ -38,37 +39,47 @@ header h1 {
 
 header h4 {
     display: inline-block;
-    position: relative;
     width: 25%;
-    right: 75px;
     text-align: right;
 }
 
 /*About Me*/
-.about-me {
-    min-width: 350px;
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1000px;
-    position: relative;
     margin: 0 auto;
+    justify-content: space-evenly;
 }
 
-.about-me .am-text {
-    display: inline-block;
-    position: relative;
-    min-width: 350px;
-    max-width: 500px;
-    bottom: 235px;
+#about-me .am-text {
+    width: 50%;
+    margin: 0;
+    margin-top: 10%;
 }
 
-.about-me h2 {
+#about-me h2 {
     text-align: left;
     margin: 25px 5px;
 }
 
-.about-me img {
-    margin-left: 50px;
+#about-me span {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+#about-me .image-container {
+    display: flex;
+    width: 35%;
+    min-width: 250px;
+    height: 480px;
+    overflow: hidden;
+}
+
+#about-me img {
     border-radius: 15px;
-    width: 350px;
+    width: 100%;
+    margin: auto;
 }
 
 /*Projects*/
@@ -112,4 +123,22 @@ footer p {
 footer a,
 header a {
     color: white;
+}
+
+@media only screen and (max-width: 1380px) {
+    header h1 {
+        width: 35rem;
+        margin: 0 2rem;
+    }
+
+    header h4 {
+        width: 21.5rem;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #about-me h2 {
+        text-align: center;
+    }
 }
