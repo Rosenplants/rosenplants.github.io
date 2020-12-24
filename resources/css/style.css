@@ -97,6 +97,12 @@ header h4 {
     margin: 0px 55px;
 }
 
+.projects nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     display: inline-block;
     background-color: goldenrod;
