@@ -185,8 +185,9 @@ header a {
 
     footer {
         display: flex;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         align-items: center;
+        height: 75px;
     }
 
     footer p {
