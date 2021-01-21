@@ -148,3 +148,48 @@ header a {
         text-align: center;
     }
 }
+
+@media only screen and (orientation: portrait) {
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    
+    header h4 {
+        display: none;
+    }
+    
+    #about-me {
+        font-size: 1.6rem;
+    }
+
+    #about-me span {
+        font-size: 1.25rem;
+    }
+
+    #about-me .am-text {
+        margin-top: 2.5%;
+    }
+
+    button {
+        display: block;
+        height: 150px;
+        width: 300px;
+        font-size: 1.75rem;
+    }
+
+    footer {
+        display: flex;
+        font-size: 1.25rem;
+        align-items: center;
+    }
+
+    footer p {
+        margin: 0;
+    }
+}
